@@ -366,7 +366,7 @@ pre.w-code-block code > span {
   font-size: 12px !important;
   line-height: 14px !important;
   text-decoration: none !important;
-  display: none !important;
+  display: inline-block !important;
   position: fixed !important;
   inset: auto 12px 12px auto !important;
   transform: none !important;
@@ -377,7 +377,7 @@ pre.w-code-block code > span {
   visibility: unset !important;
   opacity: 1 !important;
   vertical-align: middle !important;
-  display: none !important;
+  display: inline-block !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2060,10 +2060,11 @@ textarea.w-input, textarea.w-select {
   --untitled-ui--gray200\<deleted\|variable-bad2ea62\>: #eaecf0;
   --untitled-ui--gray50\<deleted\|variable-8a511359\>: #f9fafb;
   --untitled-ui--gray400\<deleted\|variable-b339bef7\>: #98a2b3;
-  --green: #004419;
+  --blue: #003566;
   --transperent: #fff0;
   --white: white;
   --black: #131313;
+  --green: #004419;
 }
 
 .uui-text-size-medium {
@@ -2476,7 +2477,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .uui-section_faq01 {
-  background-image: radial-gradient(circle farthest-corner at 100% 100%, var(--green), #000 50%, #000 50%, #000 50%, black 50%, #000 80%, var(--green));
+  background-image: radial-gradient(circle farthest-corner at 100% 100%, var(--blue), #000 50%, #000 50%, #000 50%, black 50%, #000 80%, var(--blue));
 }
 
 .uui-faq01_icon-wrapper {
